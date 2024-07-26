@@ -26,6 +26,8 @@
             .info a {
                 text-decoration: none;
                 color: inherit; 
+                padding: 3.5px 0px;
+                transition: background-color 0.3s, color 0.3s;
             }
 
             .info a:hover {
@@ -36,43 +38,45 @@
     </head>
 
     <body>
-        <div id="index">                                           <!-- Index starts here -->
-            <div class="container main">
-                <div class="row home">
-                    <div id = "index_left" class="col-md-6 left">
-                        <img id="Image" class="img-responsive img-rabbit" src="assets/images/Designer.jpeg" onclick="changeImage()" alt="Image">
-                    </div>
-                    <div id = "index_right" class="col-md-6 text-center right">
-                        <div class="logo">
-                            <h4>Paul Matthew Lazarte</h4>
+        <div class="index-container">
+            <div id="index">                                           <!-- Index starts here -->
+                <div class="container main">
+                    <div class="row home">
+                        <div id="index_left" class="col-md-6 left">
+                            <img id="Image" class="img-responsive img-rabbit" src="assets/images/Designer.jpeg" onclick="changeImage()" alt="Image">
                         </div>
-                        <p class="home-description">
-                            Finance and Information Systems 
-                            @ University of Washington
-                        </p>
-                        <p class = "home">
-                            Passionate about education and student development
-                        </p>
-                        <p class = "home">
-                            Always looking to continuosly serve my curiosity and actively share resources to win together
-                        </p>
-                        <p class = "home">
-                            Currently building QOL upgrades and content
-                        </p>
-                        <div class="btn-group-vertical custom_btn animated slideinright">
-                            <!-- <div id="about" class="btn btn-rabbit">About</div> -->
-                            <div id="work" class="btn btn-rabbit">Work</div>
-                            <!-- <div id="contact" class="btn btn-rabbit">Contact</div> -->
-                        </div>
-                        <div class = "social">
-                            <a href="https://www.linkedin.com/in/paul-lazarte/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/talosren"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://github.com/talosren"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <div id="index_right" class="col-md-6 text-center right">
+                            <div class="logo">
+                                <h4>Paul Matthew Lazarte</h4>
+                            </div>
+                            <p class="home-description">
+                                Finance and Information Systems 
+                                @ University of Washington
+                            </p>
+                            <p class="home">
+                                Passionate about education and student development
+                            </p>
+                            <p class="home">
+                                Always looking to continuously serve my curiosity and actively share resources to win together
+                            </p>
+                            <p class="home">
+                                Currently building QOL upgrades and content
+                            </p>
+                            <div class="btn-group-vertical custom_btn animated slideinright">
+                                <!-- <div id="about" class="btn btn-rabbit">About</div> -->
+                                <div id="work" class="btn btn-rabbit">Work</div>
+                                <!-- <div id="contact" class="btn btn-rabbit">Contact</div> -->
+                            </div>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/paul-lazarte/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com/talosren"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://github.com/talosren"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>                                                      <!-- index ends here -->
+        </div>                                                     <!-- index ends here -->
 
         <div id="about_scroll" class="pages ">                      <!-- about strats here  -->
             <div class="container main">
@@ -112,7 +116,7 @@
                         <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
                         <div id="watermark">
                             <h2 class="page-title" text-center>Projects</h2>
-                            <div class="marker">w</div>
+                            <div class="marker">P</div>
                         </div>
                         <p class='subtitle'>Python AI/ML
                         </p>
@@ -124,7 +128,7 @@
 
                         <div id="watermark">
                             <h2 class="page-title" text-center>Experience</h2>
-                            <div class="marker">P</div>
+                            <div class="marker">E</div>
                         </div>
                         <!-- <p class='subtitle'>Python AI/ML -->
                             <div class="info-container">
@@ -135,10 +139,6 @@
                                 <div class="info">
                                     <span class="text">Business Impact Group - Consultant</span>
                                     <span class="date">Jan 2024 - Present</span>
-                                </div>
-                                <div class="info">
-                                    <span class="text">Corporate Banking Club - VP of Curriculum</span>
-                                    <span class="date">Mar 2024 - Present</span>
                                 </div>
                                 <div class="info">
                                     <span class="text">Energy Innovation Capital (Extern) - VC Analyst</span>
