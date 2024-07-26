@@ -3,6 +3,35 @@ body{
 	font-family: "assets\fonts\Beausite Thin.OTF";
 }
 
+.index-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.index-container .container.main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages .container.main {
+    /* Ensure the work section is not centered */
+    text-align: left;
+    display: block;
+}
+
 .main{
 	background: #fff;
 }
@@ -113,7 +142,7 @@ body{
 	border: 1px solid #111;
 	border-radius: 0px !important;
 	transition: all 0.4s ease-in-out;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	font-family: "assets\fonts\Beausite Thin.OTF";
 	font-size: 13px;
 	}
