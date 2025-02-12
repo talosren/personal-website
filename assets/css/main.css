@@ -381,3 +381,23 @@ footer{
 .show{
 	display: block;
 }
+
+.project-container {
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap; /* Ensures wrapping in smaller screens */
+  }
+  
+.project-column {
+	flex: 1;
+	min-width: 150px;
+  }
+.info a {
+	display: block; /* Ensures the entire line is clickable */
+	width: 100%;    /* Forces full width */
+	text-overflow: ellipsis;
+	white-space: nowrap; /* Prevents wrapping */
+	overflow: hidden;
+	color: #007bff; /* Optional: Ensure link color is visible */
+	text-decoration: none; /* Removes underline for a cleaner look */
+  }
